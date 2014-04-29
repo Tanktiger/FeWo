@@ -100,7 +100,7 @@ p.para{
 }
 .top-nav {
 	border-top: 10px solid #206D58;
-	width: 80%;
+	width: 75%;
 	margin: 0 auto;
 	position: relative;
 	background: #279174;	
@@ -150,6 +150,7 @@ p.para{
 }
 .content{
 	text-align:center;
+    padding-bottom: 5%;
 }
 .content h2{
 	font-family: 'Engagement', cursive;
@@ -467,7 +468,7 @@ p.para{
 }
 .contact-form input[type="text"],.contact-form textarea{
 	font-family: Arial, Geneva,Helvetica, sans-serif;
-	font-size: 1em;
+	font-size: 2em;
 	color: #9E9D9D;
 	padding: 20px;
 	display: block;

@@ -26,7 +26,7 @@ class IndexController extends AbstractActionController
 
     public function indexAction()
     {
-        $notes = $this->em->getRepository('\Site\Entity\Note')->findAll();
-        return array('notes' => $notes);
+//        $notes = $this->em->getRepository('\Site\Entity\Note')->findAll();
+//        return array('notes' => $notes);
     }
 }
