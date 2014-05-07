@@ -117,12 +117,13 @@ function check_input($data, $problem='')
                         <li><a href="mailto:sylke-scheduikat@t-online.de">sylke-scheduikat@t-online.de</a></li>
                     </ul>
                     <div class="f_call">
-                        <h3>: 038391 / 89572</h3>
+                        <h3>: 038391 / 93523</h3>
                     </div>
                     <div class="clear"></div>
                     <h2><a href="index.html">Zeit zum Träumen</a></h2>
                     <div class="copy">
                         <p class="w3-link">© All Rights Reserved </p>
+                        <p class="w3-link"><a href="impressum.html">Impressum</a></p>
                     </div>
                 </div>
             </div>
