@@ -32,9 +32,7 @@
             ->prependFile($this->basePath() . 'js/camera.min.js')
             ->prependFile($this->basePath() . 'js/jquery.easing.1.3.js')
             ->prependFile($this->basePath() . 'js/jquery.mobile.customized.min.js')
-//            ->prependFile($this->basePath() . '/js/jquery.lightbox.js')
             ->prependFile($this->basePath() . 'js/bootstrap.min.js')
-//            ->prependFile($this->basePath() . 'js/jquery.min.js')
             ->prependFile($this->basePath() . 'js/jquery.1.8.3.min.js')
             ->prependFile($this->basePath() . '/js/respond.min.js', 'text/javascript', array('conditional' => 'lt IE 9',))
             ->prependFile($this->basePath() . '/js/html5shiv.js',   'text/javascript', array('conditional' => 'lt IE 9',))
@@ -48,6 +46,11 @@
         <div class="wrap">
             <div class="wrapper1">
                 <div class="menu">
+                    <?php
+                    //erstelle drowdown navi mit 4 Hauptpunkten: Home, FeWo's, Umgebung, Kontakt
+                    //FeWo' ist dropdown und wird aus der DB generiert
+                    //Jede FeWo seite sieht vom layout her gleich aus, da sie aus der db aufgebaut werden
+                    ?>
                     <ul class="top-nav">
                         <li  class="active"><a href="index.html">START</a></li>
                         <li><a href="loggia.html">FEWO LOGGIA</a></li>
